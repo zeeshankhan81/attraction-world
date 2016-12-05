@@ -1,0 +1,289 @@
+.slides li {
+	position: relative;
+}
+.flex-caption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+.flex-caption .title {
+	color: #fff;
+}
+.flex-direction-nav a:before {
+	font-size: 30px;
+}
+.navigation ul.links {
+	border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+.view .views-row {
+	border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+    float: left;
+}
+.view .views-row .views-field-title {
+	font-size: 18px;
+	float: right;
+	width: 69%;
+	text-align: left;
+}
+.view .views-row .views-field-field-image {
+	float: left;
+	width: 30%;
+}
+.view .views-row .views-field-field-image img {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: -6px 11px 13px -5px rgba(0,0,0,0.56);
+    -moz-box-shadow: -6px 11px 13px -5px rgba(0,0,0,0.56);
+    box-shadow: -6px 11px 13px -5px rgba(0,0,0,0.56);
+}
+.view .views-row .views-field-body,
+.view .views-row .views-field-field-short-description,
+.view .views-row .views-field-field-release-date {
+	float: right;
+	width: 69%;
+	text-align: left;
+}
+.view .views-row:last-child {
+	border: none;
+}
+.view .views-row .views-field-field-starts-at,
+.view .views-row .views-field-field-ends {
+	float: right;
+	width: 34.5%;
+	text-align: left;
+}
+.view .views-row .views-field-field-starts-at .field-content,
+.view .views-row .views-field-field-starts-at .views-label,
+.view .views-row .views-field-field-ends .field-content,
+.view .views-row .views-field-field-ends .views-label {
+    display: inline-block;
+}
+.view .views-row .views-field-field-starts-at .views-label,
+.view .views-row .views-field-field-ends .views-label {
+	font-size: 14px;
+	font-weight: bold;;
+}
+.page-theatres #content,
+.page-tour-packages #content {
+	background-color: #fcfcfc;
+    border: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 0 1.3em 1em;
+}
+#page-title {
+    border-bottom: 1px solid #e5e5e5;
+}
+.field .field-label {
+	font-weight: normal;
+}
+.node-type-products .field .field-label {
+	font-weight: bold;
+}
+.node-type-theatre .info,
+.node-type-tour .info {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.node-type-theatre .info .field,
+.node-type-tour .info .field {
+	display: block;
+	width: 100%;
+	border-bottom: 1px dotted #e5e5e5;
+	padding: 5px 0;
+}
+.node-type-theatre .info .field:last-child,
+.node-type-tour .info .field:last-child {
+	border: none;
+}
+.node-type-products .field-name-field-image img {
+	width: 100%;
+}
+.node-type-products .field-name-field-video {
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	position: relative;
+}
+.node-type-products .field-name-field-video .video-embed-description {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	text-align: left;
+    padding: 5% 10%;
+}
+.node-type-products .col-2 .field-name-body {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.node-type-products .content .desc {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.node-type-products #page-title {
+	display: none;
+}
+.node-type-products .content .main-image {
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.node-type-products .content .main-image .info-wrapper {
+	position: absolute;
+	color: #fff;
+	padding: 20px;
+	bottom: 17px;
+	background: rgba(0, 0, 0, 0.3);
+}
+.node-type-products .content .main-image .info-wrapper span {
+	color: yellow;
+}
+.node-type-products .content .main-image .info-wrapper h1 {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.node-type-products .content .info .field {
+	float: none;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+.node-type-products .content .filters-tags .field {
+	float: none;
+	display: inline-block;
+	margin-right: 0.5em;
+	background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 5px 10px;
+}
+.node-type-products .content .filters-tags {
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.node-type-products .content .filters-tags .field .field-item {
+	color: #0fbe7c;
+}
+.node-type-products .content .info .field.field-name-field-getting-to-instructions,
+.node-type-products .content .info .field.field-name-field-ticket-exchange {
+	width: 100%;
+}
+.node-type-products .content .info .field.field-name-field-getting-to-instructions .field-label,
+.node-type-products .content .info .field.field-name-field-ticket-exchange .field-label,
+.node-type-products .content .info .field.field-name-field-getting-to-instructions .field-items,
+.node-type-products .content .info .field.field-name-field-ticket-exchange .field-items,
+.node-type-products .content .info .field.field-name-field-getting-to-instructions .field-item,
+.node-type-products .content .info .field.field-name-field-ticket-exchange .field-item,
+.node-type-products .content .info .field.field-name-field-getting-to-instructions p,
+.node-type-products .content .info .field.field-name-field-ticket-exchange p {
+	display: inline;
+	float: none;
+}
+.node-type-products .content .info .field.field-name-field-address,
+.node-type-products .content .info .field.field-name-field-local-contact-details {
+	width: 48%;
+	margin: 15px 0;
+	border: 1px solid #e5e5e5;
+    margin-right: 20px;
+    padding: 20px;
+}
+.node-type-products .content .info .clearfix:after {
+	display: inline-block;
+}
+.node-type-products .content .info .must-read-wrapper {
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.node-type-products .content .info .must-read-wrapper .field-name-field-important-please-read {
+	width: 66%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.node-type-products .content .info .must-read-wrapper .must-read-left {
+	width: 30%;
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+}
+.node-type-products .content .info .must-read-wrapper .must-read-left .field {
+	border-bottom: 1px dotted #e5e5e5;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.node-type-products .content .info .must-read-wrapper .must-read-left .field:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: none;
+}
+.node-type-products .content .info .must-read-wrapper .must-read-left .field .field-item {
+	color: #0fbe7c;
+}
+.node-type-products .content .info .must-read-wrapper .must-read-left .field {
+	width: 100%;
+}
+.node-type-products .content .info .field-name-field-terms-conditions,
+.node-type-products .content .info .field-name-field-confirmation-rule,
+.node-type-products .content .info .field-name-field-weather-policy,
+.node-type-products .content .info .field-name-field-cancellation-policy {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.views-exposed-form .form-item {
+	position: relative;
+	display: inline-block;
+	padding-right: 10px;
+}
+.views-exposed-form label.option {
+	font-weight: normal;
+}
+input[type="checkbox"] + label:before {
+	top: 8px;
+}
+input[type="checkbox"] + label:after, input[type="radio"] + label:after {
+	top: 0.78em;
+}
+.slider {
+	width: 65%;
+	display: inline-block;
+	margin-right: 20px;
+}
+.views-exposed-widget {
+	float: none !important;
+	width: 100%;
+	padding: .5em 0 !important;
+	border-bottom: 2px dotted #e5e5e5;
+}
+.views-exposed-widget.views-submit-button,
+.views-exposed-widget.views-reset-button {
+	border: none;
+	padding: 0 !important;
+}
+.views-exposed-widget select {
+	width: 100%;
+}

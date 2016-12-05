@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Tours Content type feature.
+ */
+
+include_once 'tours_content_type.features.inc';
