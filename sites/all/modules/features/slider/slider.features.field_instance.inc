@@ -51,7 +51,7 @@ function slider_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -81,7 +81,7 @@ function slider_field_default_field_instances() {
     'label' => 'Link',
     'required' => 0,
     'settings' => array(
-      'absolute_url' => 1,
+      'absolute_url' => 0,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,

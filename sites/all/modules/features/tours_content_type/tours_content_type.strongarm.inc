@@ -87,10 +87,10 @@ function tours_content_type_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
-          'weight' => '8',
+          'weight' => '5',
         ),
       ),
       'display' => array(),

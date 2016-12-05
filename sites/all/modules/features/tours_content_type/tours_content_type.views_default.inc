@@ -46,8 +46,8 @@ function tours_content_type_views_default_views() {
     'field_guide_tid' => array(
       'bef_format' => 'bef',
       'more_options' => array(
-        'bef_select_all_none' => FALSE,
-        'bef_collapsible' => 0,
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 1,
         'is_secondary' => 0,
         'any_label' => '',
         'bef_filter_description' => '',
@@ -97,8 +97,8 @@ function tours_content_type_views_default_views() {
     'field_languages_tid' => array(
       'bef_format' => 'bef',
       'more_options' => array(
-        'bef_select_all_none' => FALSE,
-        'bef_collapsible' => 0,
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 1,
         'is_secondary' => 0,
         'any_label' => '',
         'bef_filter_description' => '',
@@ -148,8 +148,8 @@ function tours_content_type_views_default_views() {
     'field_pick_up_tid' => array(
       'bef_format' => 'bef',
       'more_options' => array(
-        'bef_select_all_none' => FALSE,
-        'bef_collapsible' => 0,
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 1,
         'is_secondary' => 0,
         'any_label' => '',
         'bef_filter_description' => '',
@@ -199,8 +199,8 @@ function tours_content_type_views_default_views() {
     'field_drop_off_tid' => array(
       'bef_format' => 'bef',
       'more_options' => array(
-        'bef_select_all_none' => FALSE,
-        'bef_collapsible' => 0,
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 1,
         'is_secondary' => 0,
         'any_label' => '',
         'bef_filter_description' => '',
@@ -280,7 +280,7 @@ function tours_content_type_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  /* Field: Content: Description */
+  /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
   $handler->display->display_options['fields']['body']['field'] = 'body';

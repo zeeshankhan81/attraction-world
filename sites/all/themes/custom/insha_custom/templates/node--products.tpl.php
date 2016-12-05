@@ -41,7 +41,7 @@
     <?php 
       $col_class = $content['field_video'] ? 'col-2' : 'col-1';
     ?>
-    <div class="desc <?php print $col_class; ?>">
+    <div class="desc <?php print $col_class; ?> ">
       <?php
         // We hide the comments and links now so that we can render them later.
         hide($content['comments']);

@@ -10,7 +10,7 @@ stylesheets[all][] = css/style.css
 
 ; SCRIPTS
 ;-------------------------------------------------------------------------------
-scripts[] = js/banner.js
+scripts[] = js/script.js
 
 regions[header] = Header
 regions[help] = Help

@@ -15,6 +15,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
   <?php print $styles; ?>
+  <?php print $scripts; ?>
 
  </head>
 
@@ -25,7 +26,6 @@
   </div>
   <?php print $page_top; ?>
   <?php print $page; ?>
-  <?php print $page_bottom; ?>
-  <?php print $scripts; ?>  
+  <?php print $page_bottom; ?> 
 </body>
 </html>

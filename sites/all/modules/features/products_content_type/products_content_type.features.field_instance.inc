@@ -94,7 +94,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 35,
+      'weight' => 25,
     ),
   );
 
@@ -136,7 +136,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 13,
+      'weight' => 10,
     ),
   );
 
@@ -179,7 +179,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 45,
+      'weight' => 32,
     ),
   );
 
@@ -221,7 +221,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 47,
+      'weight' => 12,
     ),
   );
 
@@ -261,7 +261,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 21,
+      'weight' => 16,
     ),
   );
 
@@ -318,7 +318,7 @@ function products_content_type_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 23,
+      'weight' => 16,
     ),
   );
 
@@ -361,7 +361,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 30,
+      'weight' => 20,
     ),
   );
 
@@ -403,7 +403,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 40,
+      'weight' => 10,
     ),
   );
 
@@ -443,7 +443,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 17,
+      'weight' => 9,
     ),
   );
 
@@ -483,7 +483,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 25,
+      'weight' => 18,
     ),
   );
 
@@ -523,7 +523,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 9,
+      'weight' => 5,
     ),
   );
 
@@ -566,7 +566,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 37,
+      'weight' => 27,
     ),
   );
 
@@ -609,7 +609,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 28,
+      'weight' => 18,
     ),
   );
 
@@ -652,7 +652,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 34,
+      'weight' => 24,
     ),
   );
 
@@ -692,7 +692,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 42,
+      'weight' => 7,
     ),
   );
 
@@ -735,7 +735,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 36,
+      'weight' => 26,
     ),
   );
 
@@ -778,7 +778,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 39,
+      'weight' => 29,
     ),
   );
 
@@ -820,7 +820,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 10,
+      'weight' => 13,
     ),
   );
 
@@ -860,7 +860,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 11,
+      'weight' => 6,
     ),
   );
 
@@ -900,7 +900,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 12,
+      'weight' => 7,
     ),
   );
 
@@ -943,7 +943,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 38,
+      'weight' => 28,
     ),
   );
 
@@ -986,7 +986,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 44,
+      'weight' => 31,
     ),
   );
 
@@ -1029,7 +1029,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 16,
+      'weight' => 8,
     ),
   );
 
@@ -1079,7 +1079,7 @@ function products_content_type_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 6,
+      'weight' => 4,
     ),
   );
 
@@ -1121,7 +1121,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 20,
+      'weight' => 12,
     ),
   );
 
@@ -1161,7 +1161,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 8,
+      'weight' => 4,
     ),
   );
 
@@ -1203,7 +1203,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 15,
+      'weight' => 11,
     ),
   );
 
@@ -1246,7 +1246,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 27,
+      'weight' => 17,
     ),
   );
 
@@ -1286,7 +1286,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 24,
+      'weight' => 17,
     ),
   );
 
@@ -1343,7 +1343,7 @@ function products_content_type_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 22,
+      'weight' => 15,
     ),
   );
 
@@ -1386,7 +1386,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 29,
+      'weight' => 19,
     ),
   );
 
@@ -1429,7 +1429,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 19,
+      'weight' => 15,
     ),
   );
 
@@ -1472,7 +1472,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 43,
+      'weight' => 30,
     ),
   );
 
@@ -1512,7 +1512,7 @@ function products_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 7,
+      'weight' => 3,
     ),
   );
 
@@ -1569,7 +1569,7 @@ function products_content_type_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 41,
+      'weight' => 4,
     ),
   );
 
@@ -1612,7 +1612,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 32,
+      'weight' => 22,
     ),
   );
 
@@ -1655,7 +1655,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 33,
+      'weight' => 23,
     ),
   );
 
@@ -1698,7 +1698,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 18,
+      'weight' => 14,
     ),
   );
 
@@ -1783,7 +1783,7 @@ function products_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 31,
+      'weight' => 21,
     ),
   );
 
@@ -1825,7 +1825,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 26,
+      'weight' => 9,
     ),
   );
 
@@ -1909,7 +1909,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 48,
+      'weight' => 8,
     ),
   );
 
@@ -1956,7 +1956,7 @@ function products_content_type_field_default_field_instances() {
       'module' => 'video_embed_field',
       'settings' => array(),
       'type' => 'video_embed_field_video',
-      'weight' => 4,
+      'weight' => 3,
     ),
   );
 
@@ -1998,7 +1998,7 @@ function products_content_type_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 46,
+      'weight' => 11,
     ),
   );
 

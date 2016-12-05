@@ -108,7 +108,7 @@ function theatre_content_type_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 6,
+      'weight' => 5,
     ),
   );
 
@@ -165,7 +165,7 @@ function theatre_content_type_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 5,
+      'weight' => 4,
     ),
   );
 
@@ -251,7 +251,7 @@ function theatre_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 8,
+      'weight' => 7,
     ),
   );
 
@@ -342,7 +342,7 @@ function theatre_content_type_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 7,
+      'weight' => 6,
     ),
   );
 

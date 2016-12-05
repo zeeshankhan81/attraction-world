@@ -40,7 +40,7 @@ function slider_flexslider_default_presets() {
     'minItems' => '0',
     'maxItems' => '0',
     'move' => '0',
-    'animation' => 'slide',
+    'animation' => 'fade',
     'slideshow' => 1,
     'slideshowSpeed' => '7000',
     'directionNav' => 1,
