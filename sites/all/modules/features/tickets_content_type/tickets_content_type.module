@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Tickets Content type feature.
+ */
+
+include_once 'tickets_content_type.features.inc';

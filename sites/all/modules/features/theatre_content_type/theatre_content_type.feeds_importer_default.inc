@@ -60,6 +60,7 @@ function theatre_content_type_feeds_importer_default() {
             'source' => 'Description',
             'target' => 'body',
             'format' => 'filtered_html',
+            'language' => 'und',
           ),
           3 => array(
             'source' => 'Doors Open',
@@ -85,6 +86,18 @@ function theatre_content_type_feeds_importer_default() {
             'target' => 'field_interval',
             'term_search' => '0',
             'autocreate' => 1,
+            'language' => 'und',
+          ),
+          7 => array(
+            'source' => 'Image',
+            'target' => 'field_image:uri',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          8 => array(
+            'source' => 'Slide Images',
+            'target' => 'field_slide_images:uri',
+            'unique' => FALSE,
             'language' => 'und',
           ),
         ),

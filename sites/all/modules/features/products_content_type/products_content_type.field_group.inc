@@ -113,7 +113,8 @@ function products_content_type_field_group_info() {
       0 => 'body',
       1 => 'field_short_description',
       2 => 'field_release_date',
-      3 => 'title',
+      3 => 'field_ticket',
+      4 => 'title',
     ),
     'format_type' => 'tab',
     'format_settings' => array(

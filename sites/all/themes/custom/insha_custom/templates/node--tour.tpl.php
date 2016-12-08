@@ -41,6 +41,7 @@
         print render($content['field_drop_off']);
         print render($content['field_starts_at']);
         print render($content['field_ends']);
+        print render($content['field_ticket']);
       ?>
     </div>
     <?php
@@ -54,6 +55,7 @@
       hide($content['field_drop_off']);
       hide($content['field_starts_at']);
       hide($content['field_ends']);
+      hide($content['field_ticket']);
       print render($content);
     ?>
   </div>

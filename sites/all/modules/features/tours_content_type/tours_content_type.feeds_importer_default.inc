@@ -60,6 +60,7 @@ function tours_content_type_feeds_importer_default() {
             'source' => 'Description',
             'target' => 'body',
             'format' => 'filtered_html',
+            'language' => 'und',
           ),
           3 => array(
             'source' => 'Guide',
@@ -98,6 +99,18 @@ function tours_content_type_feeds_importer_default() {
           8 => array(
             'source' => 'Ends',
             'target' => 'field_ends',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          9 => array(
+            'source' => 'Image',
+            'target' => 'field_image:uri',
+            'unique' => FALSE,
+            'language' => 'und',
+          ),
+          10 => array(
+            'source' => 'Slide Images',
+            'target' => 'field_slide_images:uri',
             'unique' => FALSE,
             'language' => 'und',
           ),

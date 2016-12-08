@@ -20,7 +20,9 @@ function theatre_content_type_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'text_default',
         'weight' => 1,
       ),
@@ -28,6 +30,7 @@ function theatre_content_type_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
+          'field_formatter_class' => '',
           'trim_length' => 600,
         ),
         'type' => 'text_summary_or_trimmed',
@@ -65,6 +68,7 @@ function theatre_content_type_field_default_field_instances() {
         'label' => 'inline',
         'module' => 'date',
         'settings' => array(
+          'field_formatter_class' => '',
           'format_type' => 'medium',
           'fromto' => 'both',
           'multiple_from' => '',
@@ -122,6 +126,7 @@ function theatre_content_type_field_default_field_instances() {
         'label' => 'inline',
         'module' => 'date',
         'settings' => array(
+          'field_formatter_class' => '',
           'format_type' => 'medium',
           'fromto' => 'both',
           'multiple_from' => '',
@@ -179,7 +184,7 @@ function theatre_content_type_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 6,
+        'weight' => 7,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -225,7 +230,9 @@ function theatre_content_type_field_default_field_instances() {
       'default' => array(
         'label' => 'inline',
         'module' => 'taxonomy',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 5,
       ),
@@ -266,6 +273,7 @@ function theatre_content_type_field_default_field_instances() {
         'module' => 'flexslider_fields',
         'settings' => array(
           'caption' => 0,
+          'field_formatter_class' => '',
           'image_style' => 'tour_slider',
           'optionset' => 'highlights_banner',
         ),
@@ -316,7 +324,9 @@ function theatre_content_type_field_default_field_instances() {
       'default' => array(
         'label' => 'inline',
         'module' => 'taxonomy',
-        'settings' => array(),
+        'settings' => array(
+          'field_formatter_class' => '',
+        ),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 4,
       ),
@@ -346,6 +356,54 @@ function theatre_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-theatre-field_ticket'.
+  $field_instances['node-theatre-field_ticket'] = array(
+    'bundle' => 'theatre',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'entityreference',
+        'settings' => array(
+          'colorbox_node_classes' => '',
+          'colorbox_node_height' => 400,
+          'colorbox_node_link' => 1,
+          'colorbox_node_width' => 600,
+          'field_formatter_class' => '',
+          'link' => 1,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 6,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ticket',
+    'label' => 'Ticket',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'match_operator' => 'CONTAINS',
+        'path' => '',
+        'size' => 60,
+      ),
+      'type' => 'options_select',
+      'weight' => 3,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Curtain Up');
@@ -355,6 +413,7 @@ function theatre_content_type_field_default_field_instances() {
   t('Interval');
   t('Slide Images');
   t('Starring');
+  t('Ticket');
 
   return $field_instances;
 }

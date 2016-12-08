@@ -39,6 +39,7 @@
         print render($content['field_curtain_up']);
         print render($content['field_starring']);
         print render($content['field_interval']);
+        print render($content['field_ticket']);
       ?>
     </div>
     <?php
@@ -50,6 +51,7 @@
       hide($content['field_curtain_up']);
       hide($content['field_starring']);
       hide($content['field_interval']);
+      hide($content['field_ticket']);
       print render($content);
     ?>
   </div>
